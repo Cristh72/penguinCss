@@ -78,6 +78,78 @@ body {
     border-radius: 70% 70% 100% 100%;
 }
 
+.eye {
+    background-color: black;
+    width: 15%;
+    height: 17%;
+    top: 45%;
+    border-radius: 50%;
+}
+
+.eye.left {
+    left: 25%;
+}
+
+.eye.right {
+    right: 25%;
+}
+
+.eye-lid {
+    background-color: var(--penguin-face);
+    width: 150%;
+    height: 100%;
+    border-radius: 50%;
+    top: 25%;
+    left: -23%;
+}
+
+.blush {
+    background-color: pink;
+    width: 15%;
+    height: 10%;
+    top: 65%;
+    border-radius: 50%;
+}
+
+.blush.left {
+    left: 15%;
+}
+
+.blush.right {
+    right: 15%;
+}
+
+.beak {
+    background-color: orange;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.beak.top {
+    width: 20%;
+    top: 60%;
+    left: 40%;
+}
+
+.beak.bottom {
+    width: 16%;
+    top: 65%;
+    left: 42%;
+}
+
+.shirt {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    /*font: bold 25px Helvetica, sans-serif; forma corta*/
+}
+
+.shirt div {
+    font-weight: initial;
+    top:22.5px;
+    left:12px
+}
+
 .penguin-body {
     width: 53%;
     height: 45%;
